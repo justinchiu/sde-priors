@@ -1,0 +1,22 @@
+[project]
+name = "sde-priors"
+version = "0.0.0"
+description = "SDE function priors"
+authors = [
+    {name = "Justin T Chiu", email = "chiu.justin.t@gmail.com"},
+]
+dependencies = [
+    "diffrax",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = [
+    "pdm-backend",
+    "numpy",
+    "setuptools",
+]
+build-backend = "pdm.backend"
+
